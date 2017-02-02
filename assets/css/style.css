@@ -1,0 +1,48 @@
+html, body {
+	font-family: "Courier New", Courier, monospace;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	margin: 0px;
+}
+
+.wrapper {
+	min-height: 100%
+	margin-bottom: -50px;
+}
+
+header {
+	padding: 20px;
+	font-size: 24px;
+	border-top: solid 2px black;
+	border-bottom: solid 2px black;
+}
+
+#info{
+	padding: 20px;
+	
+}
+
+#box {
+	width: 33%;
+	margin: 0 auto;
+	padding-bottom: 30%;
+}
+
+li {
+	padding: 10px;
+}
+
+.push, .footer{
+	height:50px;
+}
+
+footer{
+	line-height: 50px;
+	border-top: solid 2px black;
+}
+
+a {
+	text-decoration: none;
+	color: #4aaaa5;
+}

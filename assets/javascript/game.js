@@ -56,8 +56,9 @@ document.onkeyup = function(event) {
                 document.querySelector('#wins').innerHTML = "Wins: " + win;
                 reset();
             }
+          }
             // if the guesses left are equal to zero then the loss variable is given plus one and it is printed to the screen with innerHTML
-        }else if(guessesCount == 0){ 
+        else if(guessesCount == 0){ 
             loss++;
             document.querySelector('#losses').innerHTML = "Losses: " + loss;
             // this reset(function)code pulls the previously stated reset function on line 30
